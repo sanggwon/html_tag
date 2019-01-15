@@ -1,0 +1,32 @@
+p, h1, h2, h3 {
+    color:gray;
+}
+.black_bg, .color_white {
+    color:white;
+    background-color:black;
+}
+
+#chocolate > li {
+    color:chocolate;
+}
+
+#lime > li {
+    color:lime;
+}
+
+table td {
+    color:olive;
+}
+
+.blue {
+    background-color:blue;
+}
+
+.red {
+    background-color:red;
+}
+.red + div {
+    background-color:purple;
+}
+/* 인접선택자, 형제 + */
+/* 클래스 < 인접 선택자 */

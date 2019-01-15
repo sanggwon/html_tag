@@ -1,0 +1,43 @@
+* {
+    color:red;
+}
+/* 전체 선택자 */
+
+h1 {
+    color:rosybrown;
+}
+/* 태그 선택자 */
+
+.blue {
+    color:blue;
+}
+/* 클래스 선택자 (태그vs클래스) 클래스 승*/
+
+#green {
+    color:green;
+}
+/* 아이디 선택자 (태그vs아이디) 아이디 승*/
+/* 아이디 선택자 (클래스vs아이디) 아이디 승*/
+
+.pink {
+    color: pink;
+}
+
+.bold {
+    font-weight:bold;
+}
+/* 키워드, 크기단위, 색깔 만 들어올 수 있음 */
+/* 키워드 : 정해진 것만 */
+/* 크기 : 픽셀단위,백분률,em,rem,Viewport */
+
+h5 {
+    width:50%;
+}
+
+div {
+    width:50%;
+}
+
+h4 {
+    color:rgba(153, 89, 89, 0.247);
+}

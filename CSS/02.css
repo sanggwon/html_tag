@@ -1,0 +1,25 @@
+html {
+    font-size:10px;
+}
+/* 기본적으로 설정 */
+
+ol, ol li {
+    font-size:1.2rem;
+}
+/* 10*1.2 = 12px */
+
+ul, ul li {
+    font-size:1.2em;
+}
+/* 부모와 상관, ul = 10 * 1.2 = 12px
+               ul li = 10 * 1.2 * 1.2 = 14.4px  */
+
+.vh {
+    font-size:5vh;
+}
+/* 세로의 영향 */
+
+.vw {
+    font-size:5vw;
+}
+/* 가로의 영향 */
